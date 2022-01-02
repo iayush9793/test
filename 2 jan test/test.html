@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>GEEKSTER TEST</title>
+    <style>
+        body{
+            background-color: bisque;
+        }
+        h1{
+            color: chocolate;
+            text-align: center;
+        }
+        form{
+            height: 50%;
+            text-align: center;
+        }
+        input{
+            height: 7%;
+            width: 10%;
+        }
+        label{
+            height: 7%;
+            width: 10%;
+        }
+        
+    </style>
+    </head>
+
+    <body>
+        <h1>GEEKSTER FEEDBACK FORM</h1>
+        <form method="post">
+            <label for="name">FIRST NAME-</label>
+            <input type="text"  name="FIRST NAME" value="FIR" required>&nbsp;&nbsp;
+            <label for="lname">LAST NAME-</label>
+            <input type="text"required><br>
+            <br><br>
+            <label for="email">Email-</label>
+            <input type="email" required><br><br>
+            <label for="courses"><b>COURSE</b></label>&nbsp;&nbsp;
+            <input type="checkbox" >
+             <label for="courses"><b>WEB DEVELOPMENT</b></label>&nbsp;&nbsp;
+             <input type="checkbox" >
+              <label for="courses"><b>JAVA</b></label>&nbsp;&nbsp;
+             <br><br><br>
+             <label for="BATCH"><b>CHOOSE YOUR BATCH</b></label>
+             <select id="BATCH" name="BATCH">
+            <option value="1SEPT">1 SEPT</option>
+            <option value="1 NOV">1 NOV</option>
+             <option value="1 DEC">1 DEC</option>
+             <option value="1JAN">1 JAN</option>
+            </select><br><br><br>
+            <label for="feedback">FEEDBACK:</label>
+            <input type="area" ><br><br>
+
+
+
+            <input type="submit" formmethod="post">
+
+
+            
+        </form>
+    </body>
+</html>
