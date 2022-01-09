@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+}
+#header{
+    background-color:rgb(230, 253, 253);
+    height: 2cm;
+    display: flex;
+    
+}
+img{
+    height: 2cm;
+    width: 5cm;
+}
+#list{
+    margin-left: 24cm;
+    padding-top: 1cm;
+
+}
+a{
+    padding: 0.5cm;
+    text-decoration: none;
+    color: rgb(37, 33, 33);
+    font-size: x-large;
+}
+#body{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+#text{
+    
+    height: 100%;
+    width: 50%;
+background-color: white;    
+}
+#pic{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+}
+#text>h1{
+    padding-left: 3cm;
+    padding-top: 6cm;
+}
+#text p{
+    font-size: medium;
+    padding-top: 1cm;
+}
+#pic2{
+    height: 8cm;
+    width: 8cm;
+    padding-top: 5cm;
+    padding-left: 5cm;
+}
+#pic h1,h3{
+    padding-left: 5cm;
+    padding-top: 1cm;
+}
+
